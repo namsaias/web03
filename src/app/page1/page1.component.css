@@ -1,0 +1,14 @@
+.example-card {
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.example-header-image {
+  background-image: url('https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5LRHTKqPygxVCZouHIfNNAelgtCS6itBmiAiLLhqS22wN1PBQPf.jpg');
+  background-size: cover;
+}
+.forest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

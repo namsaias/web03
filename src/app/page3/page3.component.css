@@ -1,0 +1,17 @@
+.p1{
+    color:rgb(238, 255, 5)
+}
+.p2{
+    color: blue;
+}
+div, span{
+    color: brown;
+}
+div p {
+    color: cadetblue;
+}
+
+p{
+    color: blueviolet;
+}
+

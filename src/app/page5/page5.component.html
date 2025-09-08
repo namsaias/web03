@@ -1,0 +1,41 @@
+<p>page5 works!</p>
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+        <mat-form-field class="example-full-width">
+            <mat-label>Company (disabled)</mat-label>
+            <input class="output01" matInput disabled [(ngModel)]="output01">
+        </mat-form-field>
+    </mat-card-header>
+    <mat-card-content>
+
+    </mat-card-content>
+    <mat-card-footer class="example-card-footer">
+        <div class="button-row">
+            <button class="btn_clear" mat-flat-button (click)="click_clear()">Clear</button>
+        </div>
+        <div class="button-row">
+            <button mat-flat-button (click)="click_number('7')">7</button>
+            <button mat-flat-button (click)="click_number('8')">8</button>
+            <button mat-flat-button (click)="click_number('9')">9</button>
+            <button class="btn_operator" mat-flat-button (click)="click_operation('÷')">÷</button>
+        </div>
+        <div class="button-row">
+            <button mat-flat-button (click)="click_number('4')">4</button>
+            <button mat-flat-button (click)="click_number('5')">5</button>
+            <button mat-flat-button (click)="click_number('6')">6</button>
+            <button class="btn_operator" mat-flat-button (click)="click_operation('x')">x</button>
+        </div>
+        <div class="button-row">
+            <button mat-flat-button (click)="click_number('1')">1</button>
+            <button mat-flat-button (click)="click_number('2')">2</button>
+            <button mat-flat-button (click)="click_number('3')">3</button>
+            <button class="btn_operator" mat-flat-button (click)="click_operation('-')">-</button>
+        </div>
+                <div class="button-row">
+            <button mat-flat-button (click)="click_number('0')">0</button>
+            <button class="btn_operator" mat-flat-button (click)="click_dot()">.</button>
+            <button class="btn_ans" mat-flat-button (click)="click_ans()">=</button>
+            <button class="btn_operator" mat-flat-button (click)="click_operation('+')">+</button>
+        </div>
+    </mat-card-footer>
+</mat-card>

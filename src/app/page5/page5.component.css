@@ -1,0 +1,35 @@
+.example-card {
+    width: 400px;
+    margin-top: 50px;
+    border-color: red;
+}
+
+.example-full-width {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.output01 {
+    text-align: right;
+}
+
+button {
+    margin: 17px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: red;
+}
+
+.button-row {
+    text-align: center;
+}
+
+.btn_clear {
+    width: 360px;
+}
+
+.btn_operator {
+    background-color: red !important;
+    color: black !important;
+}

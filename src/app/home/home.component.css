@@ -1,0 +1,14 @@
+.example-card {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.example-header-image {
+  background-image: url('https://xn--v3cdwa6co.com/wp-content/uploads/2020/03/JDE-4.jpg');
+  background-size: cover;
+}
+.forest_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
